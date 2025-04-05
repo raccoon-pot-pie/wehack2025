@@ -5,16 +5,7 @@
 #define VRY_PIN 1
 #define DEADZONE 384
 ezButton button(SW_PIN);
-byte customChar[] = {
-    B00000,
-    B00000,
-    B11111,
-    B11111,
-    B11111,
-    B11111,
-    B00000,
-    B00000
-};
+
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 int xValue = 0;
